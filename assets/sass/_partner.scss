@@ -1,0 +1,15 @@
+.partner{
+    .partner-logo{
+        .partner-link{
+            img{
+                filter: invert(0);
+                transition: all 0.25s ease;
+            }
+        }
+        .partner-link:hover{
+            img{
+                filter: invert(1);
+            }
+        }
+    }
+}
