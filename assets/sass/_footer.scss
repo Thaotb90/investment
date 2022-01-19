@@ -49,3 +49,12 @@
     }
   
 }
+.menu-demo{
+  &-_item{
+    background:red;
+  }
+  &-_item__link{
+    font-size: 30px;
+    color: blueviolet;
+  }
+}
